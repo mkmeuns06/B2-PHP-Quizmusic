@@ -1,7 +1,7 @@
 /**
  * QuizMusic - Styles personnalisés
  * Jour 1 : PHP Procédural - Améliorations visuelles et animations
- * 
+ *
  * Ce fichier complète Tailwind CSS avec des styles personnalisés
  * pour améliorer l'expérience utilisateur de QuizMusic
  */
@@ -121,7 +121,7 @@ input[type="radio"]:checked {
 
 /* Ombre portée personnalisée */
 .shadow-quiz {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
                 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
@@ -151,7 +151,7 @@ a:focus {
     .question-card {
         margin-bottom: 1rem;
     }
-    
+
     .quiz-container {
         padding: 1rem;
     }
@@ -241,11 +241,11 @@ a:focus {
 
 /* Style pour la barre de progression des résultats */
 .progress-bar {
-    background: linear-gradient(90deg, 
-        #ef4444 0%, 
-        #f97316 25%, 
-        #eab308 50%, 
-        #22c55e 75%, 
+    background: linear-gradient(90deg,
+        #ef4444 0%,
+        #f97316 25%,
+        #eab308 50%,
+        #22c55e 75%,
         #10b981 100%);
     border-radius: 9999px;
     transition: width 2s ease-out;
@@ -260,9 +260,9 @@ a:focus {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(90deg, 
-        transparent 0%, 
-        rgba(255, 255, 255, 0.3) 50%, 
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(255, 255, 255, 0.3) 50%,
         transparent 100%);
     animation: shine 2s ease-out;
 }
@@ -340,11 +340,11 @@ a:focus {
         background: white !important;
         color: black !important;
     }
-    
+
     .no-print {
         display: none !important;
     }
-    
+
     .print-friendly {
         background: white !important;
         color: black !important;
